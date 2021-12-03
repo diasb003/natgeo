@@ -40,7 +40,7 @@ header {
     font-weight: bold;
     color: black;
 }
-
+/*styling for subscribe button*/
 #subscribe{
   margin-left: 20px;
   padding: 20px 25px;
@@ -51,7 +51,7 @@ header {
   font-size: 14px;
   letter-spacing: 4px;
 }
-
+/*styling for menu button*/
 #menu{
       font-family: sans-serif;
     letter-spacing: .1px;
@@ -60,20 +60,20 @@ header {
     font-weight: 400;
     padding-left: 20px; 
 }
-
+/*styling for search button*/
 #Searchlogo{
   height: 20px;
   width: 20px;
   margin: 1px 4px 0px;
   padding: 2px;
 }
-
+/*styling for renew button*/
 #renew{
   text-decoration: underline;
   text-decoration-color: #ffce00;
   text-decoration-thickness: 2px;
 }
-
+/*the hover animations*/
 #subscribe:hover{
   background-color: #ffce00;
 }
@@ -100,7 +100,7 @@ h3{
   background-color: black;
   width: 100%;
 }
-
+/*main heading*/
 .headings{
   background-color: black;
   text-align: center;
@@ -141,6 +141,7 @@ h3{
   text-decoration-thickness: 5px;
   padding-bottom: 40px;
 }
+/* working on the styling and affects for the footer*/
 .container{
 	max-width: 1170px;
 	margin:auto;
@@ -169,6 +170,7 @@ ul{
 	position: relative;
   font-family: GeoBrandBold,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
 }
+
 .footer-col h4::before{
 	content: '';
 	position: absolute;
@@ -207,5 +209,41 @@ ul{
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffce00;
+}
+.sign_up_block{
+  text-align: center;
+  padding-bottom: 65px;
+  padding-top: 20px;
+}
+.signup_header{
+      font-family: GeoBrandBold,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-size: 32px;
+    letter-spacing: 3px;
+    line-height: 1.25;
+    margin: 0 40px;
+    text-transform: uppercase;
+}
+.signuptext{
+      font-family: GeoEditRegular,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+    letter-spacing: .1px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 20px;
+    line-height: 1.39;
+    margin-bottom: 30px;
+}
+.signup_link{
+  background-color: #ffce00;
+  padding: 12px 80px 12px 80px;
+      font-family: Gill Sans MT,sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 1.429;
+    font-weight: 700; 
+}
+/*animation for signup buttom near bottom of page*/
+.signup_link:hover{
+  background-color: white;
 }
 
